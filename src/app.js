@@ -16,6 +16,10 @@ app.use(morgan('dev'));
 app.use(express.json());
 app.use(cors());
 
+app.get('', (req, res) => {
+  res.sendStatus(200);
+});
+
 app.use('/v1', v1Router);
 
 app.use(validationErrorHandler);

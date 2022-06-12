@@ -12,3 +12,5 @@ production -> production environment
 
 continous integration
 continous deployment
+
+volume mount
