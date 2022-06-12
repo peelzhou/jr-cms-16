@@ -1,5 +1,8 @@
 name: jr cms 16 CI
 
+env:
+  JWT_KEY: secret
+
 on:
   push:
     branches: [master]
